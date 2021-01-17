@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<link rel="stylesheet" href="css/style.css">
+<title>COMP 351 Website</title>
+</head>
+<body>
+<div id="wrapper">
+    <div id="top"></div>
+    <nav>
+        <p id="navigation">Navigation</p>
+        <a href="../../../../index.html">Home</a>
+        <a href="../../../COMP351.html">COMP 351 Labs</a>
+        <a href="quiz.html">Hard-Coded-Quiz</a>
+    </nav>
+    <main>
+    <h1>COMP 351: Hard Coded Quiz</h1>
+
+    <p>1) Please choose the correct result of this expression.</p>
+    <p><span class="let">let</span> user;
+    <br><span class="alert">alert</span>(user ?? "anonymous");</p>
+
+    <input type="radio" name="1">a) user<br>
+	<input type="radio" name="1">b) anonymous<br>
+	<input type="radio" name="1">c) null<br>
+    <input type="radio" name="1">d) "anonymous"<br>
+    <hr>
+
+    <p>2) Which equation is correct given the following function?</p>
+    <p><span class="let">let</span> height = 0;<br><span class="let">let</span> width = 100;
+        <br><span class="let">let</span> area = (height || 100) * (width || 50);
+        <br><span class="alert">alert</span>(area);</p>
+
+    <input type="radio" name="2">a) 100 * 100<br>
+    <input type="radio" name="2">b) 100 * 50<br>
+    <input type="radio" name="2">c) 0 * 50<br>
+    <input type="radio" name="2">d) 0 * 100<br>
+    <hr>
+
+    <p>3) What is value of x?</p>
+    <p><span class="let">let</span> x = (1 && 2 && 3) ?? 4;
+        <br><span class="alert">alert</span>(x);</p>
+
+    <input type="radio" name="3">a) 1<br>
+    <input type="radio" name="3">b) 2<br>
+    <input type="radio" name="3">c) 3<br>
+    <input type="radio" name="3">d) 4<br>
+    <hr>
+
+    <p>4) Please choose the correct result of this expression.</p>
+    <p><span class="let">let</span> sum = (a, b) => a + b;
+        <br><span class="alert">alert</span>( sum(3, 4) );</p>
+
+    <input type="radio" name="4">a) 12<br>
+    <input type="radio" name="4">b) 3<br>
+    <input type="radio" name="4">c) 4<br>
+    <input type="radio" name="4">d) 7<br>
+    <hr>
+
+    <p>5) Which code should be included within the empty brackets on the last line to achieve an output of 3?</p>
+    <p><span class="let">let</span> sum = (a, b) => {
+        <br>&nbsp;&nbsp;&nbsp;<span class="let">let</span> result = a + b;
+        <br>&nbsp;&nbsp;&nbsp;<span class="return">return</span> sum;
+        <br>};
+        <br><span class="alert">alert</span>();</p>
+
+    <input type="radio" name="5">a) sum 1, 2<br>
+    <input type="radio" name="5">b) result 1, 2<br>
+    <input type="radio" name="5">c) sum(1, 2)<br>
+    <input type="radio" name="5">d) result(1, 2)<br>
+    <hr>
+
+    <p>6) Please choose the correct result of this expression.</p>
+    <p><span class="let">let</span> double = n => n * 2;        
+        <br><span class="alert">alert</span>( double(3) * 2);</p>
+    <input type="radio" name="6">a) 12<br>
+    <input type="radio" name="6">b) 6<br>
+    <input type="radio" name="6">c) 3<br>
+    <input type="radio" name="6">d) 2<br>
+    <hr>
+
+    <p>Answers:</p>
+    <ol>
+        <li>b) anonymous</li>
+        <li>a) 100 * 100</li>
+        <li>b) 2</li>
+        <li>d) 7</li>
+        <li>c) sum(1, 2)</li>
+        <li>a) 12</li>
+    </ol>
+
+    <form id="button" action="#top">
+        <input type="submit" value="Top"/>
+    </form>
+    </main>
+</div>
+</body>
+</html>
